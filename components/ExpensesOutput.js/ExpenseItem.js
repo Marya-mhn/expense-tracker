@@ -41,5 +41,16 @@ const styles = StyleSheet.create({
     marginBottom: 4,
     fontWeight: "bold",
   },
-  amountContainer: {},
+  amountContainer: {
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    backgroundColor: "white",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 4,
+  },
+  amount: {
+    color: GlobalStyles.colors.primary500,
+    fontWeight: "bold",
+  },
 });
