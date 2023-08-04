@@ -10,19 +10,19 @@ const DUMMY_Expenses = [
     date: new Date("2021-12-19"),
   },
   {
-    id: "e1",
+    id: "e2",
     description: "A pair of trousers",
     amount: 9.99,
     date: new Date("2022-12-19"),
   },
   {
-    id: "e1",
+    id: "e3",
     description: "Some bananas ",
     amount: 79.99,
     date: new Date("2023-12-19"),
   },
   {
-    id: "e1",
+    id: "e4",
     description: "Another book ",
     amount: 18.99,
     date: new Date("2021-09-20"),
