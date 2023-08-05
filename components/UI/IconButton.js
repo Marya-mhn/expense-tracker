@@ -8,7 +8,7 @@ function IconButton({ icon, size, color, onPress }) {
       style={({ pressed }) => pressed && styles.pressed}
     >
       <View style={styles.buttonContainer}>
-        <Ionicons name={icon} siz e={size} color={color} />
+        <Ionicons name={icon} size={size} color={color} />
       </View>
     </Pressable>
   );
