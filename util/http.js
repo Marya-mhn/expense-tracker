@@ -1,8 +1,13 @@
 import axios from "axios";
 
 const BACKEND_URL = "https://expense-tracker-f8799-default-rtdb.firebaseio.com";
-export function storeExpense(expenseData) {
-  axios.post(BACKEND_URL + "/expenses.json", expenseData);
+export async function storeExpense(expenseData) {
+  const response = await axios.post(
+    BACKEND_URL + "/expenses.json",
+    expenseData
+  );
+  const id = response.data.name;
+  return id;
 }
 
 export async function fetchExpenses() {
