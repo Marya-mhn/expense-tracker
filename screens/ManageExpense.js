@@ -66,6 +66,7 @@ function ManageExpense({ route, navigation }) {
   if (isSubmitting) {
     return <LoadingOverlay />;
   }
+  debugger;
   return (
     <View style={styles.container}>
       <ExpenseForm
